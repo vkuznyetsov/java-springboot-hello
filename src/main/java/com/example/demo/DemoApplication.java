@@ -30,7 +30,7 @@ public class DemoApplication {
       locale = new Locale("en", "US");
       dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
       // pattern = "dd-M-yyyy hh:mm:ss"; // euro
-      pattern = "M-dd-yyyy hh:mm:ss"; // us
+      pattern = "MMMMM-dd-yyyy hh:mm:ss"; // us
       simpleDateFormat = new SimpleDateFormat(pattern);
       String stringNow = simpleDateFormat.format(new Date());
 
