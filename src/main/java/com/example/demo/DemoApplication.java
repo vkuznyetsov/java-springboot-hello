@@ -35,7 +35,7 @@ public class DemoApplication {
       String stringNow = simpleDateFormat.format(new Date());
 
       System.out.println("Hola: " + cnt);
-      return "5 Aloha Spring 2023 March: # " + cnt++ + " Now (US)" + stringNow + " on ->> " + HOSTNAME;
+      return "5 Aloha Spring 2023 March: # " + cnt++ + " Now (US format): " + stringNow + " on ->> " + HOSTNAME;
     }
 
     public static void main(String[] args) {
